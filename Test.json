@@ -1,0 +1,128 @@
+[
+    {
+        "question":"calloc() returns storage that is initialized to",
+        "id":"1",
+        "answer":"Zero",
+        "options":["Zero","Null","Nothing","One"]
+    },
+    {
+        "question":"In C, Which is the best way to generate numbers between 0 to 99?",
+        "id":"2",
+        "answer":"rand()%100",
+        "options":["rand()-100","rand()%100","rand(100)","srand(100)"]
+    },
+    {
+        "question":"#include<stdio.h>\nenum ex {p,q,r};\nmain() {enum ex m; printf(\"%d\", m);}",
+        "id":"3",
+        "answer":"Error in the statement: p,q,r;",
+        "options":["No error","Error in the statement: p,q,r;","Error in the statement: enum ex m;","Error in the statement: printf(“%d”,m);"]
+    },
+    {
+        "question":"The principle of stack is __________",
+        "id":"4",
+        "answer":"First In First Out",
+        "options":["First In First Out","First In Last Out","Last In First Out","Last In Last Out"]
+    },
+    {
+        "question":"Determine the output of the C code mentioned below:\n#include <stdio.h>\nint main() {float var = 'b'; printf(\"%f\", var); return 0;}",
+        "id":"5",
+        "answer":"98.000000",
+        "options":["Error","b","98.000000","b.0000000"]
+    },
+    {
+        "question":"Determine the output of the C code mentioned below:\nvoid main( ) \n{\n  int i = 0, j = 1, k = 2, m;\n  m = i++ || j++ || k++;\n  printf(\"%d %d %d %d\", m, i, j, k);\n}",
+        "id":"6",
+        "answer":"1 1 2 2",
+        "options":["1 1 2 3","1 1 2 2","0 1 2 2","0 1 2 3"]
+    },
+    {
+        "question":"Determine the output of the C code mentioned below:\n  void main( ) \n {\n   int  x, n1=8,n2=10;\n   x=n1<n2 ? n2: n1;\n}\n",
+        "id":"7",
+        "answer":"10",
+        "options":["10","8","Compilation error","0"]
+    },
+    {
+        "question":"Determine the output of the C code mentioned below:\n#include<stdio.h>\nint main()\n{\n    int x=4, y, z;\n    y = --x;\n    z = x--;\n    printf(\"%d, %d, %d\n\", x, y, z);\n    return 0;\n}\n",
+        "id":"8",
+        "answer":"2, 3, 3",
+        "options":["4, 3, 3","4, 3, 2","3, 3, 2","2, 3, 3"]
+    },
+    {
+        "question":"min = (n1 > n2 && n1 > n3 && n1 > n4) ? \n               n1 : ((n2 > n3 && n2 > n4) ? \n               n2 : (n3 > n4 ? n3 : n4));\n    The above program intended for? ",
+        "id":"9",
+        "answer":"Maximum of 4 numbers",
+        "options":["Maximum of 3 numbers","Maximum of 4 numbers","Minimum of 3 numbers","Minimum of 4 numbers"]
+    },
+    {
+        "question":"Determine the output of the C code mentioned below:\n     #include <stdio.h>\n    int main()\n    {\n        int a = 2, b = 0;\n        int c;\n        c = (b++, b);\n        printf(\"%d\n\", z);\n        return 0;\n    }\n\n",
+        "id":"10",
+        "answer":"1",
+        "options":["0","1","Undefined behavior","Compilation error"]
+    },
+    {
+        "question":"Determine the output of the C code mentioned below:\n    #include <stdio.h>\n    int main()\n    {\n        int y = 2;\n        int z = y +(y = 10);\n        printf(\"%d\n\", z);\n    }\n\n",
+        "id":"11",
+        "answer":"20",
+        "options":["12","20","4","Either 12 or 20"]
+    },
+    {
+        "question":"What is the output of the following statements?\n  int b = 15, c = 5, d = 8, e = 8, a;\n  a = b>c ? 12 : d>e ? 13 : 14 :15;\n  printf(\"%d\", a);\n\n",
+        "id":"12",
+        "answer":"14",
+        "options":["13","14","15","12"]
+    },
+    {
+        "question":"What will be the output of the following C code?\n    #include <stdio.h>\n    int main() {\n        int i = 0;\n        for (i++; i == 1; i = 2) printf(\"In for loop \");\n            printf(\"After loop\n\");\n    }\n\n",
+        "id":"13",
+        "answer":"In for loop after loop",
+        "options":["In for loop after loop","After loop","Compile time error","Undefined behavior"]
+    },
+    {
+        "question":"What will be the output of the following C code?\n #include <stdio.h>\n    int main()\n    {\n        do\n            printf(\"In while loop \");\n        while (0);\n            printf(\"After loop\n\");\n    }\n",
+        "id":"14",
+        "answer":"In while loop After loop",
+        "options":["In while loop","In while loop After loop","After loop","Infinite loop"]
+    },
+    {
+        "question":"How many times is the value of i checked in the following C code?\n#include <stdio.h>\nint main()\n{\nint i = 0;\ndo {\ni++;\nprintf(\"in while loop\\n\");\n} while (i < 3);\n}\n",
+        "id":"15",
+        "answer":"3",
+        "options":["2","4","3","1"]
+    },
+    {
+        "question":"Can you use C Modulo Division operator % with float and int?",
+        "id":"16",
+        "answer":"Only float variables",
+        "options":["Only int variables","Only float variables","int or float combination","Numerator int variable, Denominator any variable"]
+    },
+    {
+        "question":"",
+        "id":"",
+        "answer":"",
+        "options":["","","",""]
+    },
+    {
+        "question":"",
+        "id":"",
+        "answer":"",
+        "options":["","","",""]
+    },
+    {
+        "question":"",
+        "id":"",
+        "answer":"",
+        "options":["","","",""]
+    },
+    {
+        "question":"",
+        "id":"",
+        "answer":"",
+        "options":["","","",""]
+    },
+    {
+        "question":"",
+        "id":"",
+        "answer":"",
+        "options":["","","",""]
+    }
+]
